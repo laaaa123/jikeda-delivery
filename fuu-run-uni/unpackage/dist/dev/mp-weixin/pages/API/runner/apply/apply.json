@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "跑腿申请",
+  "navigationStyle": "default",
+  "usingComponents": {
+    "nut-notify": "../../../../node-modules/nutui-uniapp/components/notify/notify",
+    "nut-icon": "../../../../node-modules/nutui-uniapp/components/icon/icon",
+    "nut-form-item": "../../../../node-modules/nutui-uniapp/components/formitem/formitem",
+    "nut-input": "../../../../node-modules/nutui-uniapp/components/input/input",
+    "nut-radio": "../../../../node-modules/nutui-uniapp/components/radio/radio",
+    "nut-radio-group": "../../../../node-modules/nutui-uniapp/components/radiogroup/radiogroup",
+    "nut-uploader": "../../../../node-modules/nutui-uniapp/components/uploader/uploader",
+    "nut-form": "../../../../node-modules/nutui-uniapp/components/form/form",
+    "nut-button": "../../../../node-modules/nutui-uniapp/components/button/button"
+  }
+}

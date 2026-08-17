@@ -1,0 +1,1 @@
+{"doc":"\n 权限表\r\n","fields":[{"name":"name","doc":"\n 权限名称\r\n"},{"name":"parentId","doc":"\n 父级id\r\n"},{"name":"sort","doc":"\n 排序字段\r\n"},{"name":"perms","doc":"\n 权限标识\r\n"}],"enumConstants":[],"methods":[],"constructors":[]}

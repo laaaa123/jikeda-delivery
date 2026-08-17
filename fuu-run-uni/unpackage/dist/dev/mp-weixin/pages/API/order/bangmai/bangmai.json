@@ -1,0 +1,25 @@
+{
+  "navigationBarTitleText": "帮买",
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "default",
+  "backgroundColorBottom": "#f8f8f8",
+  "backgroundColorTop": "#b300fa",
+  "navigationBarBackgroundColor": "#b300fa",
+  "usingComponents": {
+    "nut-notify": "../../../../node-modules/nutui-uniapp/components/notify/notify",
+    "nut-button": "../../../../node-modules/nutui-uniapp/components/button/button",
+    "nut-cell": "../../../../node-modules/nutui-uniapp/components/cell/cell",
+    "nut-tab-pane": "../../../../node-modules/nutui-uniapp/components/tabpane/tabpane",
+    "nut-tabs": "../../../../node-modules/nutui-uniapp/components/tabs/tabs",
+    "nut-textarea": "../../../../node-modules/nutui-uniapp/components/textarea/textarea",
+    "nut-icon": "../../../../node-modules/nutui-uniapp/components/icon/icon",
+    "nut-picker": "../../../../node-modules/nutui-uniapp/components/picker/picker",
+    "nut-popup": "../../../../node-modules/nutui-uniapp/components/popup/popup",
+    "nut-date-picker": "../../../../node-modules/nutui-uniapp/components/datepicker/datepicker",
+    "nut-tag": "../../../../node-modules/nutui-uniapp/components/tag/tag",
+    "nut-input": "../../../../node-modules/nutui-uniapp/components/input/input",
+    "nut-range": "../../../../node-modules/nutui-uniapp/components/range/range",
+    "nut-uploader": "../../../../node-modules/nutui-uniapp/components/uploader/uploader",
+    "nut-address": "../../../../node-modules/nutui-uniapp/components/address/address"
+  }
+}

@@ -1,0 +1,1 @@
+{"doc":"\n 系统相关信息\r\n","fields":[{"name":"computerName","doc":"\n 服务器名称\r\n"},{"name":"computerIp","doc":"\n 服务器Ip\r\n"},{"name":"userDir","doc":"\n 项目路径\r\n"},{"name":"osName","doc":"\n 操作系统\r\n"},{"name":"osArch","doc":"\n 系统架构\r\n"}],"enumConstants":[],"methods":[],"constructors":[]}

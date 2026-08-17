@@ -1,0 +1,1 @@
+{"doc":"\n 內存相关信息\r\n","fields":[{"name":"total","doc":"\n 内存总量\r\n"},{"name":"used","doc":"\n 已用内存\r\n"},{"name":"free","doc":"\n 剩余内存\r\n"}],"enumConstants":[],"methods":[],"constructors":[]}

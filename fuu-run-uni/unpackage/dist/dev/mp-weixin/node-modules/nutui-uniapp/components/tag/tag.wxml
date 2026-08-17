@@ -1,0 +1,1 @@
+<view class="{{d}}" style="{{e}}" bindtap="{{f}}"><slot/><nut-icon wx:if="{{a}}" catchtap="{{b}}" u-i="1bf91048-0" bind:__l="__l" u-p="{{c}}"/></view>

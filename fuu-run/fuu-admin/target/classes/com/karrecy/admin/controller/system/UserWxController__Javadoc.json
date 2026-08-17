@@ -1,0 +1,1 @@
+{"doc":"","fields":[],"enumConstants":[],"methods":[{"name":"listWx","paramTypes":["com.karrecy.system.domain.bo.UserWxQuery","com.karrecy.common.core.domain.PageQuery"],"doc":"\n 获取WX用户列表\r\n"},{"name":"editAgent","paramTypes":["com.karrecy.common.core.domain.entity.UserWx"],"doc":"\n 修改xcx用户\r\n @return\r\n"}],"constructors":[]}

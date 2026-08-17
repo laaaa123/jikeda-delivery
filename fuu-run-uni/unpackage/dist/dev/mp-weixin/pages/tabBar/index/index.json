@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nut-toast": "../../../node-modules/nutui-uniapp/components/toast/toast",
+    "nut-notify": "../../../node-modules/nutui-uniapp/components/notify/notify"
+  }
+}

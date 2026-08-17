@@ -1,0 +1,1 @@
+{"doc":"\n 用户地址返回体\r\n","fields":[{"name":"title","doc":"\n 地点\r\n"},{"name":"detail","doc":"\n 地址详情\r\n"},{"name":"lng","doc":"\n 经度\r\n"},{"name":"lat","doc":"\n 纬度\r\n"},{"name":"name","doc":"\n 姓名\r\n"},{"name":"phone","doc":"\n 电话\r\n"}],"enumConstants":[],"methods":[],"constructors":[]}

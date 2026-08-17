@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "个人信息",
+  "navigationStyle": "default",
+  "usingComponents": {
+    "nut-notify": "../../../../node-modules/nutui-uniapp/components/notify/notify",
+    "nut-cell": "../../../../node-modules/nutui-uniapp/components/cell/cell",
+    "nut-uploader": "../../../../node-modules/nutui-uniapp/components/uploader/uploader",
+    "nut-icon": "../../../../node-modules/nutui-uniapp/components/icon/icon",
+    "nut-input": "../../../../node-modules/nutui-uniapp/components/input/input",
+    "nut-cell-group": "../../../../node-modules/nutui-uniapp/components/cellgroup/cellgroup",
+    "nut-button": "../../../../node-modules/nutui-uniapp/components/button/button"
+  }
+}

@@ -1,0 +1,1 @@
+{"doc":" 本地开发用模拟支付实现。\n 不调用微信支付，改为通过原有队列触发支付/退款成功流程。\n","fields":[],"enumConstants":[],"methods":[],"constructors":[]}

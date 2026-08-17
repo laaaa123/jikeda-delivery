@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "nut-icon": "../../../node-modules/nutui-uniapp/components/icon/icon",
+    "nut-dialog": "../../../node-modules/nutui-uniapp/components/dialog/dialog"
+  }
+}

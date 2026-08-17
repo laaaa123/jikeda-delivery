@@ -1,0 +1,20 @@
+{
+  "navigationBarTitleText": "订单申诉",
+  "usingComponents": {
+    "nut-notify": "../../../../node-modules/nutui-uniapp/components/notify/notify",
+    "nut-skeleton": "../../../../node-modules/nutui-uniapp/components/skeleton/skeleton",
+    "nut-input": "../../../../node-modules/nutui-uniapp/components/input/input",
+    "nut-form-item": "../../../../node-modules/nutui-uniapp/components/formitem/formitem",
+    "nut-textarea": "../../../../node-modules/nutui-uniapp/components/textarea/textarea",
+    "nut-uploader": "../../../../node-modules/nutui-uniapp/components/uploader/uploader",
+    "nut-form": "../../../../node-modules/nutui-uniapp/components/form/form",
+    "nut-button": "../../../../node-modules/nutui-uniapp/components/button/button",
+    "nut-col": "../../../../node-modules/nutui-uniapp/components/col/col",
+    "nut-icon": "../../../../node-modules/nutui-uniapp/components/icon/icon",
+    "nut-row": "../../../../node-modules/nutui-uniapp/components/row/row",
+    "nut-cell": "../../../../node-modules/nutui-uniapp/components/cell/cell",
+    "nut-collapse-item": "../../../../node-modules/nutui-uniapp/components/collapseitem/collapseitem",
+    "nut-collapse": "../../../../node-modules/nutui-uniapp/components/collapse/collapse",
+    "nut-action-sheet": "../../../../node-modules/nutui-uniapp/components/actionsheet/actionsheet"
+  }
+}

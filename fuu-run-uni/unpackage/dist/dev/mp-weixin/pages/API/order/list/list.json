@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nut-icon": "../../../../node-modules/nutui-uniapp/components/icon/icon",
+    "nut-navbar": "../../../../node-modules/nutui-uniapp/components/navbar/navbar",
+    "nut-menu-item": "../../../../node-modules/nutui-uniapp/components/menuitem/menuitem",
+    "nut-menu": "../../../../node-modules/nutui-uniapp/components/menu/menu",
+    "nut-skeleton": "../../../../node-modules/nutui-uniapp/components/skeleton/skeleton",
+    "nut-tag": "../../../../node-modules/nutui-uniapp/components/tag/tag",
+    "nut-cell": "../../../../node-modules/nutui-uniapp/components/cell/cell",
+    "nut-button": "../../../../node-modules/nutui-uniapp/components/button/button",
+    "nut-empty": "../../../../node-modules/nutui-uniapp/components/empty/empty",
+    "nut-divider": "../../../../node-modules/nutui-uniapp/components/divider/divider",
+    "nut-calendar": "../../../../node-modules/nutui-uniapp/components/calendar/calendar"
+  }
+}

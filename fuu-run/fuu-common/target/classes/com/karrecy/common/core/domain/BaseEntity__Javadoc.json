@@ -1,0 +1,1 @@
+{"doc":"\n Entity基类\r\n","fields":[{"name":"searchValue","doc":"\n 搜索值\r\n"},{"name":"beginTime","doc":"\n 搜索值\r\n"},{"name":"endTime","doc":"\n 搜索值\r\n"},{"name":"params","doc":"\n 请求参数\r\n"}],"enumConstants":[],"methods":[],"constructors":[]}

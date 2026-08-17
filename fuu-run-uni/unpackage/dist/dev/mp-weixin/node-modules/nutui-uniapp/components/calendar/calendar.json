@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "nut-calendar-item": "../calendaritem/calendaritem",
+    "nut-popup": "../popup/popup"
+  }
+}

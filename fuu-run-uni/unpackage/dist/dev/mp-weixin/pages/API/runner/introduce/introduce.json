@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "跑腿介绍",
+  "navigationStyle": "default",
+  "usingComponents": {
+    "nut-notify": "../../../../node-modules/nutui-uniapp/components/notify/notify",
+    "nut-cell-group": "../../../../node-modules/nutui-uniapp/components/cellgroup/cellgroup",
+    "nut-button": "../../../../node-modules/nutui-uniapp/components/button/button",
+    "nut-col": "../../../../node-modules/nutui-uniapp/components/col/col",
+    "nut-icon": "../../../../node-modules/nutui-uniapp/components/icon/icon",
+    "nut-row": "../../../../node-modules/nutui-uniapp/components/row/row",
+    "nut-cell": "../../../../node-modules/nutui-uniapp/components/cell/cell",
+    "nut-collapse-item": "../../../../node-modules/nutui-uniapp/components/collapseitem/collapseitem",
+    "nut-collapse": "../../../../node-modules/nutui-uniapp/components/collapse/collapse",
+    "nut-action-sheet": "../../../../node-modules/nutui-uniapp/components/actionsheet/actionsheet"
+  }
+}

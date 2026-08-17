@@ -1,0 +1,1 @@
+{"doc":"\n CPU相关信息\r\n","fields":[{"name":"cpuNum","doc":"\n 核心数\r\n"},{"name":"total","doc":"\n CPU总的使用率\r\n"},{"name":"sys","doc":"\n CPU系统使用率\r\n"},{"name":"used","doc":"\n CPU用户使用率\r\n"},{"name":"wait","doc":"\n CPU当前等待率\r\n"},{"name":"free","doc":"\n CPU当前空闲率\r\n"}],"enumConstants":[],"methods":[],"constructors":[]}

@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/tabBar/index/index",
+    "pages/tabBar/order/order",
+    "pages/tabBar/my/my",
+    "pages/API/school/select/select",
+    "pages/API/order/qusong/qusong",
+    "pages/API/order/bangmai/bangmai",
+    "pages/API/order/wanneng/wanneng",
+    "pages/API/order/test/test",
+    "pages/API/user/profile/profile",
+    "pages/API/runner/introduce/introduce",
+    "pages/API/runner/apply/apply",
+    "pages/API/address/list/list",
+    "pages/API/address/add/add",
+    "pages/API/address/edit/edit",
+    "pages/API/order/list/list",
+    "pages/API/order/detail/detail",
+    "pages/API/order/runner/runner",
+    "pages/API/order/appeal/appeal",
+    "pages/API/chat/chat",
+    "pages/API/login/login",
+    "pages/API/runner/center/center",
+    "pages/API/runner/center/capitalflow/capitalflow",
+    "pages/API/runner/center/recode/recode",
+    "pages/API/user/setting/setting",
+    "pages/API/user/setting/agreement/agreement"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/tabBar/index/index",
+        "text": "",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/tabBar/order/order",
+        "text": "",
+        "iconPath": "static/icons/order.png",
+        "selectedIconPath": "static/icons/order-active.png"
+      },
+      {
+        "pagePath": "pages/tabBar/my/my",
+        "text": "",
+        "iconPath": "static/icons/user.png",
+        "selectedIconPath": "static/icons/user-active.png"
+      }
+    ]
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "用于定位当前城市和选择取送地址"
+    }
+  },
+  "es6": true,
+  "usingComponents": {}
+}

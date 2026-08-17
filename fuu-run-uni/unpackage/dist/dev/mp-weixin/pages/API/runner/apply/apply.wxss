@@ -1,0 +1,35 @@
+.submit-bar {
+  position: fixed;
+  bottom: 6%;
+  width: 90%;
+  margin-left: 5%;
+}
+.school-select {
+  width: 100%;
+  min-height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.school-name {
+  color: #333;
+  font-size: 14px;
+}
+.school-placeholder {
+  color: #999;
+  font-size: 14px;
+}
+.custom-content {
+  padding: 10px 10px 160px;
+}
+.nut-cell-group__wrap {
+  padding: 0 10px !important;
+}
+.nut-uploader__upload {
+  width: 100% !important;
+  height: 160px !important;
+}
+.nut-uploader__preview-img {
+  width: 100% !important;
+  height: 160px !important;
+}

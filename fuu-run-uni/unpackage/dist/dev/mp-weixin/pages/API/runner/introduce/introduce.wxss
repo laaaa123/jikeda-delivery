@@ -1,0 +1,92 @@
+.profit-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    margin: 16px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+.profit-header {
+    margin-bottom: 24px;
+}
+.school-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.school-logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.school-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 4px;
+}
+.school-label {
+    font-size: 13px;
+    color: #999;
+}
+.profit-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 24px;
+    padding: 16px 0;
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+}
+.profit-item {
+    text-align: center;
+}
+.item-label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
+.item-value {
+    font-size: 20px;
+    font-weight: 600;
+}
+.item-value.profit {
+    color: #498ff2;
+}
+.profit-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item {
+    text-align: center;
+}
+.item-value.price {
+    color: #ff6b6b;
+}
+.item-value.time {
+    font-size: 14px;
+    color: #999;
+    font-weight: normal;
+}
+.nut-button--plain.nut-button--info {
+  		border-radius: 15px !important;
+}
+.custom-content {
+    padding: 10px 10px 160px;
+}
+.nut-cell-group__wrap {
+  	padding: 0 10px !important;
+}
+.nut-row {
+      position: fixed;
+  	bottom: 6%;
+}
+.nut-collapse-item .nut-collapse__item-wrapper .nut-collapse__item-wrapper__content, .nut-collapse-item .nut-collapse__item-wrapper .nut-collapse__item-extraWrapper__extraRender, .nut-collapse-item .nut-collapse__item-extraWrapper .nut-collapse__item-wrapper__content, .nut-collapse-item .nut-collapse__item-extraWrapper .nut-collapse__item-extraWrapper__extraRender {
+  	padding: 0 24px !important;
+}
+.nut-popup {
+  	max-height: 70% !important;
+}
+.nut-cell {
+  	margin: 0 !important;
+}

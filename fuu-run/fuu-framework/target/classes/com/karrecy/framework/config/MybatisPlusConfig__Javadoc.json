@@ -1,0 +1,1 @@
+{"doc":"\n mybatis-plus配置类(下方注释有插件介绍)\r\n","fields":[],"enumConstants":[],"methods":[{"name":"paginationInnerInterceptor","paramTypes":[],"doc":"\n 分页插件，自动识别数据库类型\r\n"},{"name":"optimisticLockerInnerInterceptor","paramTypes":[],"doc":"\n 乐观锁插件\r\n"},{"name":"idGenerator","paramTypes":[],"doc":"\n 使用网卡信息绑定雪花生成器\r\n 防止集群雪花ID重复\r\n"}],"constructors":[]}

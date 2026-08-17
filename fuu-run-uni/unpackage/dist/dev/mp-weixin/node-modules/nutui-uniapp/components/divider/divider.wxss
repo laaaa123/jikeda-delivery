@@ -1,0 +1,65 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.nut-divider {
+  display: flex;
+  align-items: center;
+  margin: var(--nut-divider-margin, 16px 0);
+  font-size: var(--nut-divider-text-font-size, var(--nut-font-size-2, 14px));
+  color: var(--nut-divider-text-color, #909ca4);
+}
+.nut-divider::before, .nut-divider::after {
+  flex: 1;
+  height: var(--nut-divider-line-height, 2px);
+  content: "";
+  border: var(--nut-divider-line-height, 2px) solid currentColor;
+  border-width: var(--nut-divider-line-height, 2px) 0 0;
+}
+.nut-divider.nut-divider-center::before, .nut-divider.nut-divider-left::before, .nut-divider.nut-divider-right::before {
+  margin-right: var(--nut-divider-before-margin-right, 16px);
+}
+.nut-divider.nut-divider-center::after, .nut-divider.nut-divider-left::after, .nut-divider.nut-divider-right::after {
+  margin-left: var(--nut-divider-after-margin-left, 16px);
+}
+.nut-divider.nut-divider-left::before {
+  max-width: 10%;
+}
+.nut-divider.nut-divider-right::after {
+  max-width: 10%;
+}
+.nut-divider.nut-divider-dashed::before, .nut-divider.nut-divider-dashed::after {
+  border-style: dashed;
+}
+.nut-divider.nut-divider-hairline::before, .nut-divider.nut-divider-hairline::after {
+  transform: scaleY(0.5);
+}
+.nut-divider.nut-divider-vertical {
+  position: relative;
+  top: var(--nut-divider-vertical-top, 2px);
+  display: inline-block;
+  height: var(--nut-divider-vertical-height, 12px);
+  margin: var(--nut-divider-vertical-margin, 0 8px);
+  border-left: 1px solid var(--nut-divider-vertical-border-left, rgba(0, 0, 0, 0.06));
+}

@@ -1,0 +1,1 @@
+{"doc":"\n 用户类型\r\n","fields":[],"enumConstants":[{"name":"SUPER_ADMIN","doc":"\n 超级管理员\r\n"},{"name":"SCHOOL_AGENT","doc":"\n 校区代理\r\n"},{"name":"COMMON_ADMIN","doc":"\n 普通管理员\r\n"},{"name":"COMMON_USER","doc":"\n 普通用户\r\n"},{"name":"RUNNER_USER","doc":"\n 跑腿用户\r\n"},{"name":"SYSTEM","doc":"\n 系统\r\n"}],"methods":[],"constructors":[]}

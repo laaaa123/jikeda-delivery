@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "nut-elevator": "../elevator/elevator",
+    "nut-icon": "../icon/icon",
+    "nut-popup": "../popup/popup"
+  }
+}

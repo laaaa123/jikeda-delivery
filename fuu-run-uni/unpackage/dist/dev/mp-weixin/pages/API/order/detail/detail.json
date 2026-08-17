@@ -1,0 +1,23 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "backgroundColorBottom": "#e9f7fd",
+  "backgroundColorTop": "#14bafa",
+  "navigationBarBackgroundColor": "#14bafa",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "nut-icon": "../../../../node-modules/nutui-uniapp/components/icon/icon",
+    "nut-navbar": "../../../../node-modules/nutui-uniapp/components/navbar/navbar",
+    "nut-skeleton": "../../../../node-modules/nutui-uniapp/components/skeleton/skeleton",
+    "nut-countdown": "../../../../node-modules/nutui-uniapp/components/countdown/countdown",
+    "nut-cell": "../../../../node-modules/nutui-uniapp/components/cell/cell",
+    "nut-ellipsis": "../../../../node-modules/nutui-uniapp/components/ellipsis/ellipsis",
+    "nut-collapse-item": "../../../../node-modules/nutui-uniapp/components/collapseitem/collapseitem",
+    "nut-collapse": "../../../../node-modules/nutui-uniapp/components/collapse/collapse",
+    "nut-safe-area": "../../../../node-modules/nutui-uniapp/components/safearea/safearea",
+    "nut-dialog": "../../../../node-modules/nutui-uniapp/components/dialog/dialog",
+    "nut-input": "../../../../node-modules/nutui-uniapp/components/input/input",
+    "nut-popup": "../../../../node-modules/nutui-uniapp/components/popup/popup",
+    "nut-action-sheet": "../../../../node-modules/nutui-uniapp/components/actionsheet/actionsheet"
+  }
+}

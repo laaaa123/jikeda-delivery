@@ -1,0 +1,1 @@
+{"doc":"\n 表格分页数据对象\r\n","fields":[{"name":"total","doc":"\n 总记录数\r\n"},{"name":"rows","doc":"\n 列表数据\r\n"},{"name":"code","doc":"\n 消息状态码\r\n"},{"name":"msg","doc":"\n 消息内容\r\n"}],"enumConstants":[],"methods":[],"constructors":[{"name":"<init>","paramTypes":["java.util.List","long"],"doc":"\n 分页\r\n\r\n @param list  列表数据\r\n @param total 总记录数\r\n"}]}

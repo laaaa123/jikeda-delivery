@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "填写地址",
+  "navigationStyle": "default",
+  "usingComponents": {
+    "nut-notify": "../../../../node-modules/nutui-uniapp/components/notify/notify",
+    "nut-input": "../../../../node-modules/nutui-uniapp/components/input/input",
+    "nut-cell": "../../../../node-modules/nutui-uniapp/components/cell/cell",
+    "nut-tab-pane": "../../../../node-modules/nutui-uniapp/components/tabpane/tabpane",
+    "nut-tabs": "../../../../node-modules/nutui-uniapp/components/tabs/tabs",
+    "nut-checkbox": "../../../../node-modules/nutui-uniapp/components/checkbox/checkbox",
+    "nut-button": "../../../../node-modules/nutui-uniapp/components/button/button",
+    "nut-address": "../../../../node-modules/nutui-uniapp/components/address/address",
+    "nut-safe-area": "../../../../node-modules/nutui-uniapp/components/safearea/safearea"
+  }
+}

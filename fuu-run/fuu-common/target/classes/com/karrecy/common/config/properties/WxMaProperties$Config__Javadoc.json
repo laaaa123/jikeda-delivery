@@ -1,0 +1,1 @@
+{"doc":"","fields":[{"name":"appid","doc":"\n 设置微信小程序的appid\r\n"},{"name":"secret","doc":"\n 设置微信小程序的Secret\r\n"},{"name":"token","doc":"\n 设置微信小程序消息服务器配置的token\r\n"},{"name":"aesKey","doc":"\n 设置微信小程序消息服务器配置的EncodingAESKey\r\n"},{"name":"msgDataFormat","doc":"\n 消息格式，XML或者JSON\r\n"}],"enumConstants":[],"methods":[],"constructors":[]}

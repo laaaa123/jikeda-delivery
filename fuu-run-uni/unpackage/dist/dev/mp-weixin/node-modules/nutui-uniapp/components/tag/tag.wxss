@@ -1,0 +1,98 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.nut-tag {
+  display: inline-flex;
+  align-items: center;
+  height: var(--nut-tag-height, auto);
+  padding: var(--nut-tag-padding, 0 4px);
+  font-size: var(--nut-tag-font-size, 12px);
+  color: var(--nut-tag-default-color, #fff);
+  border-style: solid;
+  border-width: var(--nut-tag-border-width, 1px);
+  border-radius: var(--nut-tag-default-border-radius, 4px);
+}
+.nut-tag--default {
+  background: var(--nut-tag-default-background-color, #000);
+  border-color: var(--nut-tag-default-background-color, #000);
+}
+.nut-tag--default.nut-tag--plain {
+  color: var(--nut-tag-default-background-color, #000);
+  background: var(--nut-tag-plain-background-color, transparent);
+}
+.nut-tag--primary {
+  background: var(--nut-tag-primary-background-color, #3460fa);
+  border-color: var(--nut-tag-primary-background-color, #3460fa);
+}
+.nut-tag--primary.nut-tag--plain {
+  color: var(--nut-tag-primary-background-color, #3460fa);
+  background: var(--nut-tag-plain-background-color, transparent);
+}
+.nut-tag--success {
+  background: var(--nut-tag-success-background-color, #4fc08d);
+  border-color: var(--nut-tag-success-background-color, #4fc08d);
+}
+.nut-tag--success.nut-tag--plain {
+  color: var(--nut-tag-success-background-color, #4fc08d);
+  background: var(--nut-tag-plain-background-color, transparent);
+}
+.nut-tag--danger {
+  background: var(--nut-tag-danger-background-color, #df3526);
+  border-color: var(--nut-tag-danger-background-color, #df3526);
+}
+.nut-tag--danger.nut-tag--plain {
+  color: var(--nut-tag-danger-background-color, #df3526);
+  background: var(--nut-tag-plain-background-color, transparent);
+}
+.nut-tag--warning {
+  background: var(--nut-tag-warning-background-color, #f3812e);
+  border-color: var(--nut-tag-warning-background-color, #f3812e);
+}
+.nut-tag--warning.nut-tag--plain {
+  color: var(--nut-tag-warning-background-color, #f3812e);
+  background: var(--nut-tag-plain-background-color, transparent);
+}
+.nut-tag--round {
+  border-radius: var(--nut-tag-round-border-radius, 8px);
+}
+.nut-tag--mark {
+  border-radius: var(--nut-tag-mark-border-radius, 0 12px 12px 0);
+}
+.nut-tag--close {
+  margin-left: 4px;
+  cursor: pointer;
+}
+.nut-tag--disabled {
+  background: var(--nut-tag-disabled-background-color, var(--nut-disable-color, #ccc)) !important;
+  border-color: var(--nut-tag-disabled-background-color, var(--nut-disable-color, #ccc)) !important;
+}
+.nut-tag--disabled.nut-tag--plain {
+  color: var(--nut-tag-disabled-background-color, var(--nut-disable-color, #ccc)) !important;
+  background: var(--nut-tag-plain-background-color, transparent) !important;
+  border-color: var(--nut-tag-disabled-background-color, var(--nut-disable-color, #ccc)) !important;
+}
+.nut-tag--disabled .nut-tag--close {
+  color: var(--nut-tag-disabled-close-color, #aaa);
+}

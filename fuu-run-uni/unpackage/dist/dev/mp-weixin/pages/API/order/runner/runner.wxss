@@ -1,0 +1,385 @@
+.ellipsisMy {
+	white-space: nowrap; /* 禁止换行 */
+	overflow: hidden; /* 超出部分隐藏 */
+	text-overflow: ellipsis; /* 超出部分显示省略号 */
+}
+.page {
+	width: 100%;
+	height: 100%;
+}
+.box {
+	width: 92%;
+	margin-left: 4%;
+	box-sizing: border-box;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 10px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	background-color: #fff;
+}
+.nut-tag {
+	font-size: small !important;
+	margin-right: 8px !important;
+	margin-bottom: 8px !important;
+	border-radius: 15px !important;
+	padding: 1px 10px !important;
+}
+.nut-cell {
+	align-items: center;
+	margin: 0 0 !important;
+	border-radius: 0 !important;
+	box-shadow: none !important;
+}
+.nut-cell image {
+	width: 25px;
+	height: 25px;
+}
+.nut-cell .nut-cell__title {
+	padding: 0 10px;
+}
+.title {
+	white-space: nowrap; /* 禁止换行 */
+	overflow: hidden; /* 超出部分隐藏 */
+	text-overflow: ellipsis; /* 超出部分显示省略号 */
+}
+.nut-icon{
+	vertical-align: middle;
+}
+.nut-address .nut-address__exist {
+	margin-bottom: 30px;
+}
+.nut-input__value {
+	padding-left: 6px !important;
+}
+.nut-tab-pane {
+	background-color: transparent !important;
+}
+.orderBot {
+		display: flex;
+		justify-content: space-between;
+		padding: 0 12px 10px 18px;
+}
+.orderBot .orderTime {
+		display: flex;
+		align-self: center;
+		font-size: small;
+		color: #5f5f5f;
+}
+.orderTop {
+		display: flex;
+		justify-content: space-between;
+		padding: 10px 12px;
+}
+.orderDesc {
+		    padding: 4px 30px;
+		    color: #607D8B;
+		  overflow: hidden;
+		  display: -webkit-box; /* 必须设置为 flex 或者 -webkit-box */
+		  -webkit-box-orient: vertical; /* 设置为纵向排列 */
+		  -webkit-line-clamp: 2; /* 限制显示两行 */
+		  line-height: 1.5; /* 设置行高，适配文本 */
+		  height: auto; /* 自动高度 */
+		  text-overflow: ellipsis; /* 超出部分显示省略号 */
+		  white-space: normal; /* 允许换行 */
+}
+.orderTop .tag {
+		flex-grow: 1;
+		padding: 0 6px;
+		font-size: large;
+		font-weight: bold;
+}
+.orderAddress {
+		display: flex;
+}
+.orderAddress .left {
+		padding: 5px 0;
+		width: 78%;
+}
+.orderAddress .right {
+		display: flex;
+		align-items: center;
+		font-size: medium;
+		font-weight: bold;
+		color: #ff5200;
+}
+.nut-divider {
+		padding: 0 30px !important;
+}
+.nut-countdown {
+		    display: inline-block !important;
+		    color: #F44336 !important;
+		    font-size: large !important;
+}
+.custom-content {
+		padding: 10px 10px 50px;
+}
+.fileBox {
+		border-radius: 5px;
+		position: relative;
+	  margin-left: 5%;
+	  margin-top: 10px;
+	  width: 90%;
+	  height: 45px;
+	  background-color: #f4f3fc;
+}
+.fileBox .title {
+	  float: left;
+	  height: 35px;
+	  width: 60%;
+	  margin-top: 5px;
+}
+.fileBox .title .name {
+	  width: 100%;
+	  height: 20px;
+	  line-height: 20px;
+	  text-align: left;
+	  font-size:medium;
+	  -webkit-box-orient: vertical;
+	  -webkit-line-clamp: 1;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  white-space: nowrap;
+}
+.fileBox .title .size {
+	  width: 100%;
+	  height: 15px;
+	  line-height: 15px;
+	  text-align: left;
+	  font-size: small;
+	  color: #444444;
+	  -webkit-box-orient: vertical;
+	  -webkit-line-clamp: 1;
+	
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	  white-space: nowrap;
+}
+.fileDelIcon {
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		right: 5px;
+		top: 50%;
+		transform: translate(-50%, -50%);
+}
+.nut-picker__bar {
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    height: 46px;
+}
+.nut-picker__title {
+	    flex: 1;
+	    font-size: var(--nut-picker-bar-title-font-size, 16px);
+	    font-weight: var(--nut-picker-bar-title-font-weight, normal);
+	    color: var(--nut-picker-bar-title-color, var(--nut-title-color, #1a1a1a));
+	    text-align: center;
+	    width: 100%;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+}
+.nut-skeleton {
+		width: 90%;
+		margin-left: 5%;
+}
+.height20 {
+		width: 100%;
+		height: 20px;
+}
+page {
+		background-color: #e9f7fd;
+}
+.step {
+	  display: flex;
+	  align-items: flex-start;
+	  margin-bottom: 30rpx;
+}
+.stepBox {
+		display: flex;
+		    flex-direction: column;
+		    align-items: center;
+}
+/* 图标和竖线容器 */
+.icon-container {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  margin-right: 20rpx;
+}
+.stepImage {
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		border-radius: 50px;
+}
+/* 竖线 */
+.stepIcon {
+	  width: 10px;
+	  height: 10px;
+	  background-color: #ccc;
+	  border-radius: 50px;
+}
+.green {
+		background-color: #00aa47;
+}
+/* 竖线 */
+.stepIconFake {
+	  width: 10px;
+	  height: 10px;
+	  background-color: transparent;
+}
+.stepLine {
+		width: 1px;
+		height: 10px;
+		background-color: grey;
+		float: left;
+}
+/* 右侧内容 */
+.content {
+	  display: flex;
+	  flex-direction: column;
+}
+.status {
+	  font-size: 28rpx;
+	  font-weight: bold;
+	  margin-bottom: 5rpx;
+}
+.time {
+	  font-size: 24rpx;
+	  color: #999;
+}
+.nut-uploader {
+		justify-content: space-between;
+}
+.nut-uploader__upload {
+		margin: 0 10px 10px 0;
+}
+.nut-button--block {
+		width: 90% !important;
+		margin-left: 5% !important;
+		margin-top: 20px !important;
+}
+.nut-popup--center.round {
+		border-radius: var(--nut-popup-border-radius, 20px) !important;
+}
+.nut-navbar--placeholder {
+		background-color: #14bafa !important;
+}
+.box .tagMy {
+		padding: 4px 20px;
+		font-size: medium;
+}
+.splitLine {
+		border-top: 1px solid #efefef;
+		width: 90%;
+		/* margin-left: 10%; */
+		margin: 6px 5%;
+}
+.box .operaBox {
+		display: flex;
+		justify-content: flex-start;
+		padding: 4px 20px;
+		font-size: small;
+}
+.box .operaBox .oprea {
+		display: flex;
+	    width: 33.33%;
+	    align-items: center;
+		justify-content: center;
+}
+.box .operaBox .oprea .o {
+	   padding-left: 6px;
+}
+.nut-collapse-item .nut-collapse__item-wrapper .nut-collapse__item-wrapper__content, .nut-collapse-item .nut-collapse__item-wrapper .nut-collapse__item-extraWrapper__extraRender, .nut-collapse-item .nut-collapse__item-extraWrapper .nut-collapse__item-wrapper__content, .nut-collapse-item .nut-collapse__item-extraWrapper .nut-collapse__item-extraWrapper__extraRender {
+		padding: 0 !important;
+}
+.nut-cell__value {
+		color: black !important;
+}
+.nut-navbar {
+		box-shadow: none !important;
+}
+.nut-cell {
+		padding: 10px 16px !important;
+}
+.nut-navbar {
+		background-color: #14bafa !important;
+}
+.nut-icon {
+		vertical-align: middle !important;
+}
+.nut-navbar__left, .nut-navbar__right {
+		color: #fff !important;
+}
+.top {
+		width: 100%;
+		height: 80px;
+		background-color: #14bafa;
+		    color: white;
+		    font-size: x-large;
+		    font-weight: bold;
+		    padding: 0 20px;
+		    box-sizing: border-box;
+		    line-height: 60px;
+}
+.box {
+		    padding: 10px 0;
+}
+.box .t {
+		font-size: large;
+		    padding: 4px 20px;
+}
+.box .detail {
+		    width: 90%;
+			margin: 4px 5%;
+		    padding: 14px;
+		    box-sizing: border-box;
+		    background-color: #f5f5f5;
+		    border-radius: 6px;
+		    font-size: small;
+}
+.box .userBox {
+		padding: 4px 20px;
+		    display: flex;
+		    align-content: space-between;
+		    /* vertical-align: middle; */
+		    align-items: center;
+}
+.box .userBox image {
+		width: 30px;
+		height: 30px;
+		border-radius: 50px;
+}
+.box .userBox .nickname {
+		    flex: 1;
+		    padding: 0 6px;
+}
+.line {
+		width: 100%;
+		height: 10px;
+		background-color: #e9f7fd;
+		    border-radius: 10px 10px 0 0;
+		    transform: translateY(-9px);
+}
+.container_image {
+	display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 10px;
+}
+.container_image .image-box image {
+		width: 100% !important;
+		height: 100% !important;
+}
+.image-box {
+		width: 100px;
+		height: 100px;
+}
+.image-item {
+	    width: 100%;
+	    height: 100%;
+}
+.nut-popup {
+		max-height: 70% !important;
+}

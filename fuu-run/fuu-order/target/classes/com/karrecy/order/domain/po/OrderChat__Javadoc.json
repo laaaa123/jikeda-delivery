@@ -1,0 +1,1 @@
+{"doc":"\n 订单聊天类\r\n","fields":[{"name":"senderId","doc":"\n 发送者id\r\n"},{"name":"senderType","doc":"\n 发送者类型\r\n"},{"name":"recipients","doc":"\n 接收者ids\r\n"},{"name":"msgType","doc":"\n 消息类型\r\n"},{"name":"message","doc":"\n 消息体\r\n"},{"name":"readIds","doc":"\n 已读ids\r\n"}],"enumConstants":[],"methods":[],"constructors":[]}

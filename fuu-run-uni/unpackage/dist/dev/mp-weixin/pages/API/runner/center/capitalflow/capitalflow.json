@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "资金明细",
+  "usingComponents": {
+    "nut-cell": "../../../../../node-modules/nutui-uniapp/components/cell/cell",
+    "nut-skeleton": "../../../../../node-modules/nutui-uniapp/components/skeleton/skeleton",
+    "nut-empty": "../../../../../node-modules/nutui-uniapp/components/empty/empty",
+    "nut-divider": "../../../../../node-modules/nutui-uniapp/components/divider/divider",
+    "nut-safe-area": "../../../../../node-modules/nutui-uniapp/components/safearea/safearea",
+    "nut-calendar": "../../../../../node-modules/nutui-uniapp/components/calendar/calendar",
+    "nut-picker": "../../../../../node-modules/nutui-uniapp/components/picker/picker",
+    "nut-popup": "../../../../../node-modules/nutui-uniapp/components/popup/popup"
+  }
+}

@@ -1,0 +1,1 @@
+{"doc":"\n 订单取消请求体\r\n","fields":[{"name":"orderId","doc":"\n 订单id\r\n"},{"name":"cancelReason","doc":"\n 取消原因\r\n"}],"enumConstants":[],"methods":[],"constructors":[]}

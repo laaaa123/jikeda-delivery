@@ -1,0 +1,192 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container.data-v-b2115249 {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20rpx;
+}
+.balance-card.data-v-b2115249 {
+  background: linear-gradient(135deg, #007AFF, #1989fa);
+  border-radius: 16rpx;
+  padding: 40rpx 30rpx;
+  color: #fff;
+  margin-bottom: 20rpx;
+}
+.balance-card .label.data-v-b2115249 {
+  font-size: 28rpx;
+  opacity: 0.9;
+}
+.balance-card .amount.data-v-b2115249 {
+  font-size: 60rpx;
+  font-weight: bold;
+  margin-top: 10rpx;
+}
+.form-section.data-v-b2115249 {
+  background-color: #fff;
+  border-radius: 16rpx;
+  overflow: hidden;
+}
+.form-section.data-v-b2115249 .nut-input {
+  padding: 20rpx 30rpx;
+}
+.amount-input.data-v-b2115249 {
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #f5f5f5;
+}
+.amount-input .label.data-v-b2115249 {
+  font-size: 28rpx;
+  color: #333;
+  margin-bottom: 20rpx;
+  display: block;
+}
+.amount-input .input-wrapper.data-v-b2115249 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+.amount-input .input-wrapper .currency.data-v-b2115249 {
+  font-size: 40rpx;
+  color: #333;
+  margin-right: 10rpx;
+}
+.amount-input .input-wrapper input.data-v-b2115249 {
+  flex: 1;
+  font-size: 40rpx;
+  height: 80rpx;
+}
+.amount-input .tip.data-v-b2115249 {
+  font-size: 24rpx;
+  color: #999;
+}
+.submit-section.data-v-b2115249 {
+  margin-top: 40rpx;
+  padding: 0 30rpx;
+}
+.submit-section .submit-btn.data-v-b2115249 {
+  width: 100%;
+  height: 88rpx;
+  line-height: 88rpx;
+  background-color: #007AFF;
+  color: #fff;
+  border-radius: 44rpx;
+  font-size: 32rpx;
+  border: none;
+}
+.submit-section .submit-btn.disabled.data-v-b2115249 {
+  opacity: 0.6;
+  background-color: #ccc;
+}
+.data-v-b2115249 .nut-cell {
+  padding: 20rpx 30rpx;
+}
+.record-card.data-v-b2115249 {
+  background-color: #ffffff;
+  border-radius: 16rpx;
+  padding: 30rpx;
+  margin: 30rpx 20rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.05);
+}
+.record-card .card-header.data-v-b2115249 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.record-card .card-header .title.data-v-b2115249 {
+  font-size: 28rpx;
+  color: #333;
+  font-weight: 500;
+}
+.record-card .card-header .status.data-v-b2115249 {
+  font-size: 24rpx;
+  padding: 4rpx 16rpx;
+  border-radius: 20rpx;
+}
+.record-card .card-header .status.pending.data-v-b2115249 {
+  color: #ff9800;
+  background-color: rgba(255, 152, 0, 0.1);
+}
+.record-card .card-header .status.success.data-v-b2115249 {
+  color: #4caf50;
+  background-color: rgba(76, 175, 80, 0.1);
+}
+.record-card .card-header .status.rejected.data-v-b2115249 {
+  color: #f44336;
+  background-color: rgba(244, 67, 54, 0.1);
+}
+.record-card .card-content .amount-row.data-v-b2115249 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.record-card .card-content .amount-row .label.data-v-b2115249 {
+  font-size: 26rpx;
+  color: #666;
+}
+.record-card .card-content .amount-row .amount.data-v-b2115249 {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+}
+.record-card .card-content .info-row.data-v-b2115249 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.record-card .card-content .info-row .info-item.data-v-b2115249 {
+  flex: 1;
+}
+.record-card .card-content .info-row .info-item .label.data-v-b2115249 {
+  font-size: 24rpx;
+  color: #999;
+  margin-bottom: 8rpx;
+  display: block;
+}
+.record-card .card-content .info-row .info-item .value.data-v-b2115249 {
+  font-size: 26rpx;
+  color: #333;
+}
+.record-card .card-content .time-row.data-v-b2115249, .record-card .card-content .feedback-row.data-v-b2115249 {
+  margin-top: 20rpx;
+}
+.record-card .card-content .time-row .label.data-v-b2115249, .record-card .card-content .feedback-row .label.data-v-b2115249 {
+  font-size: 24rpx;
+  color: #999;
+  margin-bottom: 8rpx;
+  display: block;
+}
+.record-card .card-content .time-row .value.data-v-b2115249, .record-card .card-content .feedback-row .value.data-v-b2115249 {
+  font-size: 26rpx;
+  color: #333;
+}
+.record-card .card-content .feedback-row.data-v-b2115249 {
+  padding-top: 20rpx;
+  border-top: 1rpx solid #f5f5f5;
+}
+.record-card .card-content .feedback-row .value.data-v-b2115249 {
+  color: #ff9800;
+}

@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "nut-button": "../../button/button",
+    "nut-swipe": "../../swipe/swipe",
+    "item-contents": "./Itemcontents"
+  }
+}

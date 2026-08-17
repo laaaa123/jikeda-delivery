@@ -1,0 +1,1 @@
+{"doc":"\n tag表\r\n","fields":[{"name":"name","doc":" tag\n"},{"name":"remark","doc":"\n 备注\r\n"},{"name":"sizeRequired","doc":" 是否必须填写长宽高：0 否，1 是\n"},{"name":"serviceType","doc":" 服务类型 0 帮取送 1 代买 2 万能服务\n"}],"enumConstants":[],"methods":[],"constructors":[]}

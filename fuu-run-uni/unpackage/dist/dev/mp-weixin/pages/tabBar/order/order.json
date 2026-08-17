@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "订单大厅",
+  "backgroundColorBottom": "#f8f8f8",
+  "backgroundColorTop": "#f8f8f8",
+  "navigationBarBackgroundColor": "#f8f8f8",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "nut-skeleton": "../../../node-modules/nutui-uniapp/components/skeleton/skeleton",
+    "nut-tag": "../../../node-modules/nutui-uniapp/components/tag/tag",
+    "nut-cell": "../../../node-modules/nutui-uniapp/components/cell/cell",
+    "nut-button": "../../../node-modules/nutui-uniapp/components/button/button",
+    "nut-empty": "../../../node-modules/nutui-uniapp/components/empty/empty",
+    "nut-divider": "../../../node-modules/nutui-uniapp/components/divider/divider",
+    "nut-safe-area": "../../../node-modules/nutui-uniapp/components/safearea/safearea",
+    "nut-tab-pane": "../../../node-modules/nutui-uniapp/components/tabpane/tabpane",
+    "nut-tabs": "../../../node-modules/nutui-uniapp/components/tabs/tabs",
+    "nut-popup": "../../../node-modules/nutui-uniapp/components/popup/popup"
+  }
+}

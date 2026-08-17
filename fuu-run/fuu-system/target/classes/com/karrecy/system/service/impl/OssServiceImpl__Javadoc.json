@@ -1,0 +1,1 @@
+{"doc":"\n 文件上传 服务层实现\r\n","fields":[],"enumConstants":[],"methods":[{"name":"matchingUrl","paramTypes":["com.karrecy.system.domain.vo.OssVo"],"doc":"\n 匹配Url\r\n\r\n @param oss OSS对象\r\n @return oss 匹配Url的OSS对象\r\n"}],"constructors":[]}

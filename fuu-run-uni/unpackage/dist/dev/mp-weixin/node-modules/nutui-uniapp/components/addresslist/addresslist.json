@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "nut-button": "../button/button",
+    "general-shell": "./compoents/generalshell"
+  }
+}

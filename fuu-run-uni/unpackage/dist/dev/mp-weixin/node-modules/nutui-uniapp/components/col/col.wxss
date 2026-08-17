@@ -1,0 +1,180 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.nut-col {
+  box-sizing: border-box;
+  float: left;
+  word-break: break-all;
+}
+.nut-col-gutter:last-child {
+  padding-right: 0 !important;
+}
+.nut-col-gutter:first-child {
+  padding-left: 0 !important;
+}
+.nut-col-offset-1 {
+  margin-left: calc((100 / 24) * 1 * 1%);
+}
+.nut-col-1 {
+  width: calc((100 / 24) * 1 * 1%);
+}
+.nut-col-offset-2 {
+  margin-left: calc((100 / 24) * 2 * 1%);
+}
+.nut-col-2 {
+  width: calc((100 / 24) * 2 * 1%);
+}
+.nut-col-offset-3 {
+  margin-left: calc((100 / 24) * 3 * 1%);
+}
+.nut-col-3 {
+  width: calc((100 / 24) * 3 * 1%);
+}
+.nut-col-offset-4 {
+  margin-left: calc((100 / 24) * 4 * 1%);
+}
+.nut-col-4 {
+  width: calc((100 / 24) * 4 * 1%);
+}
+.nut-col-offset-5 {
+  margin-left: calc((100 / 24) * 5 * 1%);
+}
+.nut-col-5 {
+  width: calc((100 / 24) * 5 * 1%);
+}
+.nut-col-offset-6 {
+  margin-left: calc((100 / 24) * 6 * 1%);
+}
+.nut-col-6 {
+  width: calc((100 / 24) * 6 * 1%);
+}
+.nut-col-offset-7 {
+  margin-left: calc((100 / 24) * 7 * 1%);
+}
+.nut-col-7 {
+  width: calc((100 / 24) * 7 * 1%);
+}
+.nut-col-offset-8 {
+  margin-left: calc((100 / 24) * 8 * 1%);
+}
+.nut-col-8 {
+  width: calc((100 / 24) * 8 * 1%);
+}
+.nut-col-offset-9 {
+  margin-left: calc((100 / 24) * 9 * 1%);
+}
+.nut-col-9 {
+  width: calc((100 / 24) * 9 * 1%);
+}
+.nut-col-offset-10 {
+  margin-left: calc((100 / 24) * 10 * 1%);
+}
+.nut-col-10 {
+  width: calc((100 / 24) * 10 * 1%);
+}
+.nut-col-offset-11 {
+  margin-left: calc((100 / 24) * 11 * 1%);
+}
+.nut-col-11 {
+  width: calc((100 / 24) * 11 * 1%);
+}
+.nut-col-offset-12 {
+  margin-left: calc((100 / 24) * 12 * 1%);
+}
+.nut-col-12 {
+  width: calc((100 / 24) * 12 * 1%);
+}
+.nut-col-offset-13 {
+  margin-left: calc((100 / 24) * 13 * 1%);
+}
+.nut-col-13 {
+  width: calc((100 / 24) * 13 * 1%);
+}
+.nut-col-offset-14 {
+  margin-left: calc((100 / 24) * 14 * 1%);
+}
+.nut-col-14 {
+  width: calc((100 / 24) * 14 * 1%);
+}
+.nut-col-offset-15 {
+  margin-left: calc((100 / 24) * 15 * 1%);
+}
+.nut-col-15 {
+  width: calc((100 / 24) * 15 * 1%);
+}
+.nut-col-offset-16 {
+  margin-left: calc((100 / 24) * 16 * 1%);
+}
+.nut-col-16 {
+  width: calc((100 / 24) * 16 * 1%);
+}
+.nut-col-offset-17 {
+  margin-left: calc((100 / 24) * 17 * 1%);
+}
+.nut-col-17 {
+  width: calc((100 / 24) * 17 * 1%);
+}
+.nut-col-offset-18 {
+  margin-left: calc((100 / 24) * 18 * 1%);
+}
+.nut-col-18 {
+  width: calc((100 / 24) * 18 * 1%);
+}
+.nut-col-offset-19 {
+  margin-left: calc((100 / 24) * 19 * 1%);
+}
+.nut-col-19 {
+  width: calc((100 / 24) * 19 * 1%);
+}
+.nut-col-offset-20 {
+  margin-left: calc((100 / 24) * 20 * 1%);
+}
+.nut-col-20 {
+  width: calc((100 / 24) * 20 * 1%);
+}
+.nut-col-offset-21 {
+  margin-left: calc((100 / 24) * 21 * 1%);
+}
+.nut-col-21 {
+  width: calc((100 / 24) * 21 * 1%);
+}
+.nut-col-offset-22 {
+  margin-left: calc((100 / 24) * 22 * 1%);
+}
+.nut-col-22 {
+  width: calc((100 / 24) * 22 * 1%);
+}
+.nut-col-offset-23 {
+  margin-left: calc((100 / 24) * 23 * 1%);
+}
+.nut-col-23 {
+  width: calc((100 / 24) * 23 * 1%);
+}
+.nut-col-offset-24 {
+  margin-left: calc((100 / 24) * 24 * 1%);
+}
+.nut-col-24 {
+  width: calc((100 / 24) * 24 * 1%);
+}

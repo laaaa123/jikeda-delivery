@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nut-loading-page": "../../../node-modules/nutui-uniapp/components/loadingpage/loadingpage"
+  }
+}

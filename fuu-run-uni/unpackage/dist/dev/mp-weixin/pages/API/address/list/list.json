@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "我的地址",
+  "navigationStyle": "default",
+  "usingComponents": {
+    "nut-notify": "../../../../node-modules/nutui-uniapp/components/notify/notify",
+    "nut-skeleton": "../../../../node-modules/nutui-uniapp/components/skeleton/skeleton",
+    "nut-icon": "../../../../node-modules/nutui-uniapp/components/icon/icon",
+    "nut-address-list": "../../../../node-modules/nutui-uniapp/components/addresslist/addresslist",
+    "nut-empty": "../../../../node-modules/nutui-uniapp/components/empty/empty",
+    "nut-button": "../../../../node-modules/nutui-uniapp/components/button/button",
+    "nut-safe-area": "../../../../node-modules/nutui-uniapp/components/safearea/safearea"
+  }
+}

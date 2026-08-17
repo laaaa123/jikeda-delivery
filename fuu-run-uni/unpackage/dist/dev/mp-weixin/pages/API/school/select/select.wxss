@@ -1,0 +1,108 @@
+/* 页面基础样式 */
+page {
+  background: #f7f8fa;
+  min-height: 100vh;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* 导航栏样式 */
+ .nut-navbar {
+  background: rgba(255, 255, 255, 0.98) !important;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  width: 100%;
+}
+
+/* 搜索栏容器 */
+.nut-searchbar {
+  padding: 12px 16px !important;
+  background: transparent !important;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* 搜索框样式 */
+.nut-searchbar__search-input {
+  height: 40px !important;
+  background: #fff !important;
+  border-radius: 20px !important;
+  padding: 0 16px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  box-sizing: border-box;
+}
+
+/* 学校列表容器 */
+.school-list-container {
+  width: 100%;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+/* 学校列表项 */
+.nut-cell {
+  margin: 8px 0 !important;
+  padding: 14px !important;
+  border-radius: 12px !important;
+  background: #fff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s ease;
+  width: 100% !important;
+  box-sizing: border-box;
+}
+.nut-cell:active {
+  transform: scale(0.98);
+  background: #f8f9fa !important;
+}
+
+/* 学校图标 */
+.nut-icon {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 10px !important;
+  margin-right: 12px !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* 学校名称 */
+.nut-cell__title {
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  color: #333 !important;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 空状态和底部样式 */
+.nut-empty,
+.nut-divider {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 16px;
+}
+
+/* 文本省略样式 */
+.ellipsisc {
+  max-width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 标题样式 */
+.title {
+  padding-left: 8px !important;
+}
+
+/* 修复搜索图标位置 */
+.nut-icon[name="search2"] {
+  font-size: 16px !important;
+  color: #999 !important;
+  margin-right: 8px !important;
+}

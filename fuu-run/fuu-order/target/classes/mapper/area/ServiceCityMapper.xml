@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.karrecy.order.mapper.ServiceCityMapper">
+
+    <resultMap id="BaseResultMap" type="com.karrecy.order.domain.po.ServiceCity">
+        <id column="id" property="id" />
+        <result column="city_name" property="cityName" />
+        <result column="city_code" property="cityCode" />
+        <result column="adcode" property="adcode" />
+        <result column="center_lng" property="centerLng" />
+        <result column="center_lat" property="centerLat" />
+        <result column="status" property="status" />
+        <result column="sort_order" property="sortOrder" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+
+</mapper>

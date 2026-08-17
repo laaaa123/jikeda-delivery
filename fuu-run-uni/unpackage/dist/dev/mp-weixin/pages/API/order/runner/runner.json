@@ -1,0 +1,26 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#14bafa",
+  "backgroundColorBottom": "#e9f7fd",
+  "backgroundColorTop": "#14bafa",
+  "usingComponents": {
+    "nut-notify": "../../../../node-modules/nutui-uniapp/components/notify/notify",
+    "nut-icon": "../../../../node-modules/nutui-uniapp/components/icon/icon",
+    "nut-skeleton": "../../../../node-modules/nutui-uniapp/components/skeleton/skeleton",
+    "nut-countdown": "../../../../node-modules/nutui-uniapp/components/countdown/countdown",
+    "nut-cell": "../../../../node-modules/nutui-uniapp/components/cell/cell",
+    "nut-ellipsis": "../../../../node-modules/nutui-uniapp/components/ellipsis/ellipsis",
+    "nut-collapse-item": "../../../../node-modules/nutui-uniapp/components/collapseitem/collapseitem",
+    "nut-collapse": "../../../../node-modules/nutui-uniapp/components/collapse/collapse",
+    "nut-safe-area": "../../../../node-modules/nutui-uniapp/components/safearea/safearea",
+    "nut-checkbox": "../../../../node-modules/nutui-uniapp/components/checkbox/checkbox",
+    "nut-dialog": "../../../../node-modules/nutui-uniapp/components/dialog/dialog",
+    "nut-input": "../../../../node-modules/nutui-uniapp/components/input/input",
+    "nut-popup": "../../../../node-modules/nutui-uniapp/components/popup/popup",
+    "nut-uploader": "../../../../node-modules/nutui-uniapp/components/uploader/uploader",
+    "nut-button": "../../../../node-modules/nutui-uniapp/components/button/button",
+    "nut-action-sheet": "../../../../node-modules/nutui-uniapp/components/actionsheet/actionsheet"
+  }
+}

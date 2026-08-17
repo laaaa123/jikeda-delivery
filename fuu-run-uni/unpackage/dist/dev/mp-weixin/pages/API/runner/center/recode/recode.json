@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "提现",
+  "usingComponents": {
+    "nut-notify": "../../../../../node-modules/nutui-uniapp/components/notify/notify",
+    "nut-cell": "../../../../../node-modules/nutui-uniapp/components/cell/cell",
+    "nut-input": "../../../../../node-modules/nutui-uniapp/components/input/input",
+    "nut-button": "../../../../../node-modules/nutui-uniapp/components/button/button",
+    "nut-picker": "../../../../../node-modules/nutui-uniapp/components/picker/picker",
+    "nut-popup": "../../../../../node-modules/nutui-uniapp/components/popup/popup"
+  }
+}

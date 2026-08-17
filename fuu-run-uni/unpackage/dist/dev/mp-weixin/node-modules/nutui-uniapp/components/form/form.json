@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "nut-cell-group": "../cellgroup/cellgroup"
+  }
+}

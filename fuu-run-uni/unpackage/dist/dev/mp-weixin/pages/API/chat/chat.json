@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nut-icon": "../../../node-modules/nutui-uniapp/components/icon/icon",
+    "nut-skeleton": "../../../node-modules/nutui-uniapp/components/skeleton/skeleton",
+    "nut-tag": "../../../node-modules/nutui-uniapp/components/tag/tag"
+  }
+}

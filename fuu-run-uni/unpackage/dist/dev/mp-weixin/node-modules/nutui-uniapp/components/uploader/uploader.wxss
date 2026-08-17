@@ -1,0 +1,544 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.nut-progress {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.nut-progress .nut-progress-outer {
+  flex: 1;
+  height: 10px;
+  background-color: var(--nut-progress-outer-background-color, #f3f3f3);
+  border-radius: var(--nut-progress-outer-border-radius, 12px);
+}
+.nut-progress .nut-progress-outer .nut-progress-inner {
+  width: 30%;
+  height: 100%;
+  background: var(--nut-progress-inner-background-color, linear-gradient(135deg, var(--nut-primary-color, #fa2c19) 0%, var(--nut-primary-color-end, #fa6419) 100%));
+  border-radius: var(--nut-progress-outer-border-radius, 12px);
+  transition: all 0.4s;
+}
+.nut-progress .nut-progress-outer .nut-progress-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.nut-progress .nut-progress-outer .nut-progress-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nut-progress .nut-progress-outer .nut-active::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  border-radius: var(--nut-progress-outer-border-radius, 12px);
+  animation: progressActive 2s ease-in-out infinite;
+}
+@keyframes progressActive {
+0% {
+    width: 0;
+    background: rgba(255, 255, 255, 0.1);
+}
+20% {
+    width: 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+100% {
+    width: 100%;
+    background: rgba(255, 255, 255, 0);
+}
+}
+.nut-progress .nut-progress-outer.nut-progress-small {
+  height: var(--nut-progress-small-height, 5px);
+}
+.nut-progress .nut-progress-outer.nut-progress-small .nut-progress-text {
+  top: 50%;
+  padding: var(--nut-progress-small-text-padding, 2px 4px);
+  font-size: var(--nut-progress-small-text-font-size, 7px);
+  line-height: var(--nut-progress-small-text-line-height, 10px);
+}
+.nut-progress .nut-progress-outer.nut-progress-base {
+  height: var(--nut-progress-base-height, 10px);
+}
+.nut-progress .nut-progress-outer.nut-progress-base .nut-progress-text {
+  top: 50%;
+  padding: var(--nut-progress-base-text-padding, var(--nut-progress-insidetext-padding, 3px 5px 3px 6px));
+  font-size: var(--nut-progress-base-text-font-size, 9px);
+  line-height: var(--nut-progress-base-text-line-height, 13px);
+}
+.nut-progress .nut-progress-outer.nut-progress-large {
+  height: var(--nut-progress-large-height, 15px);
+}
+.nut-progress .nut-progress-outer.nut-progress-large .nut-progress-text {
+  top: 50%;
+  padding: var(--nut-progress-large-text-padding, var(--nut-progress-insidetext-padding, 3px 5px 3px 6px));
+  font-size: var(--nut-progress-large-text-font-size, 13px);
+  line-height: var(--nut-progress-large-text-line-height, 18px);
+}
+.nut-progress .nut-progress-outer-part {
+  width: 90%;
+}
+.nut-progress .nut-progress-text {
+  display: flex;
+  align-items: center;
+  min-width: 35px;
+  padding: 0 5px;
+  font-size: 13px;
+  line-height: 1;
+}
+.nut-progress .nut-progress-insidetext {
+  position: absolute;
+  top: 50%;
+  min-width: 0;
+  padding: var(--nut-progress-insidetext-padding, 3px 5px 3px 6px);
+  background: var(--nut-progress-insidetext-background, var(--nut-progress-inner-background-color, linear-gradient(135deg, var(--nut-primary-color, #fa2c19) 0%, var(--nut-primary-color-end, #fa6419) 100%)));
+  border-radius: var(--nut-progress-insidetext-border-radius, 5px);
+  transition: all 0.4s;
+}
+.nut-progress .nut-icon-success,
+.nut-progress .nut-icon-fail {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+.nut-theme-dark .nut-button--default {
+  color: var(--nut-dark-color3, rgba(232, 230, 227, 0.8));
+  background: var(--nut-dark-background2, #1b1b1b);
+  border: var(--nut-button-border-width, 1px) solid var(--nut-dark-background2, #1b1b1b);
+}
+.nut-theme-dark .nut-button--plain {
+  background: var(--nut-dark-background2, #1b1b1b);
+}
+.nut-theme-dark .nut-button:not(.nut-button--hovercls) .nut-button--plain:not([disabled]):active {
+  background: var(--nut-dark-background2, #1b1b1b);
+}
+.nut-theme-dark .nut-button:not(.nut-button--hovercls) .nut-button--default:not([disabled]):active {
+  color: var(--nut-dark-color3, rgba(232, 230, 227, 0.8));
+  background: var(--nut-dark-background2, #1b1b1b);
+  border: var(--nut-button-border-width, 1px) solid var(--nut-dark-background2, #1b1b1b);
+}
+.nut-button {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  flex-shrink: 0;
+  width: auto;
+  height: var(--nut-button-default-height, 38px);
+  padding: 0;
+  margin: 0;
+  font-size: var(--nut-button-default-font-size, var(--nut-font-size-2, 14px));
+  line-height: var(--nut-button-default-line-height, 36px);
+  text-align: center;
+  vertical-align: bottom;
+  -webkit-appearance: none;
+          appearance: none;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+          user-select: none;
+  transition: opacity 0.2s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+.nut-button .nut-button__text {
+  margin-left: 5px;
+}
+.nut-button::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: var(--nut-black, #000);
+  border: inherit;
+  border-color: var(--nut-black, #000);
+  border-radius: inherit;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+}
+.nut-button::after {
+  display: none;
+}
+.nut-button:not(.nut-button--hovercls):active::before {
+  opacity: 0.1;
+}
+.nut-button__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.nut-button--loading::before, .nut-button--disabled::before {
+  display: none;
+}
+.nut-button--default {
+  color: var(--nut-button-default-color, #666666);
+  background: var(--nut-button-default-bg-color, var(--nut-white, #fff));
+  background-origin: border-box;
+  border: var(--nut-button-border-width, 1px) solid var(--nut-button-default-border-color, #cccccc);
+}
+.nut-button--primary {
+  color: var(--nut-button-primary-color, var(--nut-white, #fff));
+  background: var(--nut-button-primary-background-color, linear-gradient(135deg, var(--nut-primary-color, var(--nut-primary-color, #fa2c19)) 0%, var(--nut-primary-color, var(--nut-primary-color, #fa2c19)) 100%));
+  background-origin: border-box;
+  border: var(--nut-button-border-width, 1px) solid transparent;
+}
+.nut-button--info {
+  color: var(--nut-button-info-color, var(--nut-white, #fff));
+  background: var(--nut-button-info-background-color, linear-gradient(315deg, #498ff2 0%, #4965f2 100%));
+  background-origin: border-box;
+  border: var(--nut-button-border-width, 1px) solid transparent;
+}
+.nut-button--success {
+  color: var(--nut-button-success-color, var(--nut-white, #fff));
+  background: var(--nut-button-success-background-color, linear-gradient(135deg, #26bf26 0%, #27c530 45%, #28cf3f 83%, #29d446 100%));
+  background-origin: border-box;
+  border: var(--nut-button-border-width, 1px) solid transparent;
+}
+.nut-button--danger {
+  color: var(--nut-button-danger-color, var(--nut-white, #fff));
+  background: var(--nut-button-danger-background-color, #fa2c19);
+  background-origin: border-box;
+  border: var(--nut-button-border-width, 1px) solid transparent;
+}
+.nut-button--warning {
+  color: var(--nut-button-warning-color, var(--nut-white, #fff));
+  background: var(--nut-button-warning-background-color, linear-gradient(135deg, #ff9e0d 0%, #ffa70d 45%, #ffb60d 83%, #ffbe0d 100%));
+  background-origin: border-box;
+  border: var(--nut-button-border-width, 1px) solid transparent;
+}
+.nut-button--plain {
+  background: var(--nut-button-plain-background-color, var(--nut-white, #fff));
+  background-origin: border-box;
+}
+.nut-button--plain.nut-button--primary {
+  color: var(--nut-button-primary-border-color, var(--nut-primary-color, #fa2c19));
+  border-color: var(--nut-button-primary-border-color, var(--nut-primary-color, #fa2c19));
+}
+.nut-button--plain.nut-button--info {
+  color: var(--nut-button-info-border-color, #496af2);
+  border-color: var(--nut-button-info-border-color, #496af2);
+}
+.nut-button--plain.nut-button--success {
+  color: var(--nut-button-success-border-color, #26bf26);
+  border-color: var(--nut-button-success-border-color, #26bf26);
+}
+.nut-button--plain.nut-button--danger {
+  color: var(--nut-button-danger-border-color, #fa2c19);
+  border-color: var(--nut-button-danger-border-color, #fa2c19);
+}
+.nut-button--plain.nut-button--warning {
+  color: var(--nut-button-warning-border-color, #ff9e0d);
+  border-color: var(--nut-button-warning-border-color, #ff9e0d);
+}
+.nut-button--plain:not(.nut-button--hovercls).nut-button--primary:not([disabled]):active {
+  color: var(--nut-button-primary-border-color, var(--nut-primary-color, #fa2c19));
+  border-color: var(--nut-button-primary-border-color, var(--nut-primary-color, #fa2c19));
+}
+.nut-button--plain:not(.nut-button--hovercls).nut-button--info:not([disabled]):active {
+  color: var(--nut-button-info-border-color, #496af2);
+  border-color: var(--nut-button-info-border-color, #496af2);
+}
+.nut-button--plain:not(.nut-button--hovercls).nut-button--success:not([disabled]):active {
+  color: var(--nut-button-success-border-color, #26bf26);
+  border-color: var(--nut-button-success-border-color, #26bf26);
+}
+.nut-button--plain:not(.nut-button--hovercls).nut-button--danger:not([disabled]):active {
+  color: var(--nut-button-danger-border-color, #fa2c19);
+  border-color: var(--nut-button-danger-border-color, #fa2c19);
+}
+.nut-button--plain:not(.nut-button--hovercls).nut-button--warning:not([disabled]):active {
+  color: var(--nut-button-warning-border-color, #ff9e0d);
+  border-color: var(--nut-button-warning-border-color, #ff9e0d);
+}
+.nut-button--large {
+  width: 100%;
+  height: var(--nut-button-large-height, 48px);
+  font-size: var(--nut-button-large-font-size, var(--nut-button-default-font-size, var(--nut-font-size-2, 14px)));
+  line-height: var(--nut-button-large-line-height, 46px);
+}
+.nut-button--normal {
+  padding: var(--nut-button-default-padding, 0 18px);
+  font-size: var(--nut-button-default-font-size, var(--nut-font-size-2, 14px));
+}
+.nut-button--small {
+  height: var(--nut-button-small-height, 28px);
+  padding: var(--nut-button-small-padding, 0 12px);
+  font-size: var(--nut-button-small-font-size, var(--nut-font-size-1, 12px));
+  line-height: var(--nut-button-small-line-height, 26px);
+}
+.nut-button--small.nut-button--round {
+  border-radius: var(--nut-button-small-round-border-radius, var(--nut-button-border-radius, 25px));
+}
+.nut-button--mini {
+  height: var(--nut-button-mini-height, 24px);
+  padding: var(--nut-button-mini-padding, 0 12px);
+  font-size: var(--nut-button-mini-font-size, var(--nut-font-size-1, 12px));
+  line-height: var(--nut-button-mini-line-height, 1.2);
+}
+.nut-button--block {
+  display: block;
+  width: 100%;
+}
+.nut-button--disabled {
+  cursor: not-allowed;
+  opacity: var(--nut-button-disabled-opacity, 0.68);
+}
+.nut-button--loading {
+  cursor: default;
+  opacity: 0.9;
+}
+.nut-button--round {
+  border-radius: var(--nut-button-border-radius, 25px);
+}
+.nut-button--square {
+  border-radius: 0;
+}
+.nut-button:not(.nut-button--hovercls) .nut-button--default:not([disabled]):active {
+  color: var(--nut-button-default-color, #666666);
+  background: var(--nut-button-default-bg-color, var(--nut-white, #fff));
+  background-origin: border-box;
+  border: var(--nut-button-border-width, 1px) solid var(--nut-button-default-border-color, #cccccc);
+}
+.nut-button:not(.nut-button--hovercls) .nut-button--primary:not([disabled]):active {
+  color: var(--nut-button-primary-color, var(--nut-white, #fff));
+  background: var(--nut-button-primary-background-color, linear-gradient(135deg, var(--nut-primary-color, var(--nut-primary-color, #fa2c19)) 0%, var(--nut-primary-color, var(--nut-primary-color, #fa2c19)) 100%));
+  background-origin: border-box;
+  border: var(--nut-button-border-width, 1px) solid transparent;
+}
+.nut-button:not(.nut-button--hovercls) .nut-button--info:not([disabled]):active {
+  color: var(--nut-button-info-color, var(--nut-white, #fff));
+  background: var(--nut-button-info-background-color, linear-gradient(315deg, #498ff2 0%, #4965f2 100%));
+  background-origin: border-box;
+  border: var(--nut-button-border-width, 1px) solid transparent;
+}
+.nut-button:not(.nut-button--hovercls) .nut-button--success:not([disabled]):active {
+  color: var(--nut-button-success-color, var(--nut-white, #fff));
+  background: var(--nut-button-success-background-color, linear-gradient(135deg, #26bf26 0%, #27c530 45%, #28cf3f 83%, #29d446 100%));
+  background-origin: border-box;
+  border: var(--nut-button-border-width, 1px) solid transparent;
+}
+.nut-button:not(.nut-button--hovercls) .nut-button--danger:not([disabled]):active {
+  color: var(--nut-button-danger-color, var(--nut-white, #fff));
+  background: var(--nut-button-danger-background-color, #fa2c19);
+  background-origin: border-box;
+  border: var(--nut-button-border-width, 1px) solid transparent;
+}
+.nut-button:not(.nut-button--hovercls) .nut-button--warning:not([disabled]):active {
+  color: var(--nut-button-warning-color, var(--nut-white, #fff));
+  background: var(--nut-button-warning-background-color, linear-gradient(135deg, #ff9e0d 0%, #ffa70d 45%, #ffb60d 83%, #ffbe0d 100%));
+  background-origin: border-box;
+  border: var(--nut-button-border-width, 1px) solid transparent;
+}
+.nut-button:not(.nut-button--hovercls) .nut-button--plain:not([disabled]):active {
+  background: var(--nut-button-plain-background-color, var(--nut-white, #fff));
+  background-origin: border-box;
+}
+.nut-theme-dark .nut-uploader__upload {
+  background: var(--nut-dark-background, #131313);
+}
+.nut-theme-dark .nut-uploader__preview-list {
+  color: var(--nut-dark-color, var(--nut-white, #fff));
+  background: var(--nut-dark-background2, #1b1b1b);
+}
+.nut-theme-dark .close {
+  color: var(--nut-dark-color, var(--nut-white, #fff)) !important;
+}
+.nut-uploader {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.nut-uploader__slot {
+  position: relative;
+}
+.nut-uploader__upload {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--nut-uploader-picture-width, 100px);
+  height: var(--nut-uploader-picture-height, 100px);
+  background: var(--nut-uploader-background, #f7f8fa);
+}
+.nut-uploader__input {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden;
+  cursor: pointer !important;
+  opacity: 0;
+}
+.nut-uploader__input:disabled, .nut-uploader__input.disabled {
+  cursor: not-allowed !important;
+}
+.nut-uploader__preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.nut-uploader__preview__progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.nut-uploader__preview__progress__msg {
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--nut-white, #fff);
+}
+.nut-uploader__preview.list {
+  width: 100%;
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.nut-uploader__preview-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 32px;
+}
+.nut-uploader__preview-list .nut-uploader__preview-img__file__name {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 2px 4px;
+}
+.nut-uploader__preview-list .nut-uploader__preview-img__file__name .file-name__tips {
+  padding: 0 20px;
+  margin-left: 4px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.nut-uploader__preview-list .nut-uploader__preview-img__file__del {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+.nut-uploader__preview-list .nut-uploader__preview-img__file__link {
+  position: absolute;
+  top: 8px;
+  left: 6px;
+}
+.nut-uploader__preview-list .nut-progress {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.nut-uploader__preview-list .nut-progress .nut-progress-outer {
+  height: 2px !important;
+}
+.nut-uploader__preview-img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--nut-uploader-picture-width, 100px);
+  height: var(--nut-uploader-picture-height, 100px);
+  border-radius: 6px;
+}
+.nut-uploader__preview-img .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  color: rgba(0, 0, 0, 0.6);
+  transform: translate(50%, -50%);
+}
+.nut-uploader__preview-img .tips {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0;
+  font-size: 12px;
+  color: var(--nut-white, #fff);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.54);
+  transition: height 0.3s;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.nut-uploader__preview-img__c {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 6px;
+}
+.nut-uploader__preview-img__file {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s;
+}
+.nut-uploader__preview-img__file__name {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  overflow: hidden;
+  font-size: 12px;
+  color: var(--nut-text-color, #808080);
+}
+.nut-uploader__preview-img__file__name.error {
+  color: red !important;
+}
+.nut-uploader__preview-img__file__name.success {
+  color: #1890ff !important;
+}

@@ -1,0 +1,1 @@
+<view class="{{g}}" style="{{h}}"><slot wx:if="{{a}}" name="title"/><block wx:else><view wx:if="{{b}}" class="nut-cell-group__title">{{c}}</view></block><slot wx:if="{{d}}" name="desc"/><block wx:else><view wx:if="{{e}}" class="nut-cell-group__desc">{{f}}</view></block><view class="nut-cell-group__wrap"><slot/></view></view>

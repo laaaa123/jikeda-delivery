@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "万能帮",
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "default",
+  "backgroundColorBottom": "#f8f8f8",
+  "backgroundColorTop": "#b300fa",
+  "navigationBarBackgroundColor": "#b300fa",
+  "usingComponents": {}
+}

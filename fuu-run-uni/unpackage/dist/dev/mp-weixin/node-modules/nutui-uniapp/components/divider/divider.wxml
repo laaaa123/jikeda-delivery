@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="{{b}}" style="{{c}}"><slot/></view><view wx:else class="{{d}}" style="{{e}}"/>

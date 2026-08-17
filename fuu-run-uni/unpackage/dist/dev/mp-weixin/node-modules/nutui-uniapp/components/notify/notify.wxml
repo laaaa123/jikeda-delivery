@@ -1,0 +1,1 @@
+<nut-popup wx:if="{{h}}" u-s="{{['d']}}" bindclosed="{{f}}" u-i="3089e432-0" bind:__l="__l" bindupdateVisible="{{g}}" u-p="{{h}}"><view class="{{c}}" style="{{d}}" bindtap="{{e}}"><slot wx:if="{{a}}"/><block wx:else>{{b}}</block></view></nut-popup>

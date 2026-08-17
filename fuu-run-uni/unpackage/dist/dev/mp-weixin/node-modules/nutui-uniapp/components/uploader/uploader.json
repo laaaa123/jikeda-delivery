@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "nut-button": "../button/button",
+    "nut-icon": "../icon/icon",
+    "nut-progress": "../progress/progress"
+  }
+}
